@@ -1,4 +1,4 @@
-project(Kalman_Filters C CXX)
+project(Kalman_Filters)
 
 cmake_minimum_required (VERSION 3.5)
 

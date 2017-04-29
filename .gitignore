@@ -1,8 +1,7 @@
 # silly macOS
 .DS_Store
 
-# build files
-build/
+
 
 # editor config
 .vscode/
@@ -22,3 +21,11 @@ xcuserdata/
 *.xcscmblueprint
 ide_profiles/xcode/Debug/
 ide_profiles/xcode/ExtendedKF.build/
+
+# Directories for myself
+src_original/
+Build2/
+.vs/
+CMakeFiles/
+ide_profiles/
+

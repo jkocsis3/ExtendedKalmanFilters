@@ -27,9 +27,9 @@ FusionEKF::FusionEKF() {
         0, 0.0225;
 
   //measurement covariance matrix - radar
-  R_radar_ << 0.09, 0, 0,
-        0, 0.0009, 0,
-        0, 0, 0.09;
+  R_radar_ << 0.05, 0, 0,
+        0, 0.05, 0,
+        0, 0, 0.05;
 
   H_laser_ << 1, 0, 0, 0,
 	  0, 1, 0, 0;
@@ -125,8 +125,8 @@ void FusionEKF::ProcessMeasurement(const MeasurementPackage &measurement_pack) {
   ekf_.F_(1, 3) = timeDifference;
 
   //set the acceleration noise components
-  float noiseX = 9;
-  float noiseY = 9;
+  float noiseX = 30;
+  float noiseY = 30;
 
   //Update matrix Q
   ekf_.Q_ = MatrixXd(4, 4);

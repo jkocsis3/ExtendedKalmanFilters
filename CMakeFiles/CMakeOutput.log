@@ -1,0 +1,27 @@
+The system is: Windows - 10.0.15063 - AMD64
+Determining if the C compiler works passed with the following output:
+Change Dir: E:/SDCProgram/Projects/Term2/ExtendedKalmanFilters/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/cygwin64/bin/make.exe" "cmTC_a9f52/fast"
+/usr/bin/make -f CMakeFiles/cmTC_a9f52.dir/build.make CMakeFiles/cmTC_a9f52.dir/build
+make[1]: Entering directory '/cygdrive/e/SDCProgram/Projects/Term2/ExtendedKalmanFilters/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_a9f52.dir/testCCompiler.c.obj
+C:/cygwin64/bin/cc    -o CMakeFiles/cmTC_a9f52.dir/testCCompiler.c.obj   -c E:/SDCProgram/Projects/Term2/ExtendedKalmanFilters/CMakeFiles/CMakeTmp/testCCompiler.c
+Linking C executable cmTC_a9f52.exe
+C:/cygwin64/bin/cc      "CMakeFiles/cmTC_a9f52.dir/testCCompiler.c.obj"   -o cmTC_a9f52.exe 
+make[1]: Leaving directory '/cygdrive/e/SDCProgram/Projects/Term2/ExtendedKalmanFilters/CMakeFiles/CMakeTmp'
+
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: E:/SDCProgram/Projects/Term2/ExtendedKalmanFilters/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/cygwin64/bin/make.exe" "cmTC_40f0e/fast"
+/usr/bin/make -f CMakeFiles/cmTC_40f0e.dir/build.make CMakeFiles/cmTC_40f0e.dir/build
+make[1]: Entering directory '/cygdrive/e/SDCProgram/Projects/Term2/ExtendedKalmanFilters/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_40f0e.dir/CMakeCCompilerABI.c.obj
+C:/cygwin64/bin/cc    -o CMakeFiles/cmTC_40f0e.dir/CMakeCCompilerABI.c.obj   -c "C:/Program Files/CMake/share/cmake-3.8/Modules/CMakeCCompilerABI.c"
+Linking C executable cmTC_40f0e.exe
+C:/cygwin64/bin/cc      "CMakeFiles/cmTC_40f0e.dir/CMakeCCompilerABI.c.obj"   -o cmTC_40f0e.exe 
+make[1]: Leaving directory '/cygdrive/e/SDCProgram/Projects/Term2/ExtendedKalmanFilters/CMakeFiles/CMakeTmp'
+
+

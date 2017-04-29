@@ -24,7 +24,7 @@ ide_profiles/xcode/ExtendedKF.build/
 
 # Directories for myself
 src_original/
-Build2/
+VSBuild/
 .vs/
 CMakeFiles/
 ide_profiles/

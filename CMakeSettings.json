@@ -5,7 +5,7 @@
         "name": "x86-Debug",
         "generator": "Visual Studio 15 2017",
         "configurationType": "Debug",
-        "buildRoot": "E:\\SDCProgram\\Projects\\Term2\\ExtendedKalmanFilters\\build",
+        "buildRoot": "E:\\SDCProgram\\Projects\\Term2\\ExtendedKF\\VSBuild",
         "cmakeCommandArgs": "",
         "buildCommandArgs": "-m -v:minimal"
       },
@@ -13,7 +13,7 @@
         "name": "x86-Release",
         "generator": "Visual Studio 15 2017",
         "configurationType": "Release",
-        "buildRoot": "E:\\SDCProgram\\Projects\\Term2\\ExtendedKalmanFilters\\build",
+        "buildRoot": "E:\\SDCProgram\\Projects\\Term2\\ExtendedKF\\VSBuild",
         "cmakeCommandArgs": "",
         "buildCommandArgs": "-m -v:minimal"
       },
@@ -21,7 +21,7 @@
         "name": "x64-Debug",
         "generator": "Visual Studio 15 2017 Win64",
         "configurationType": "Debug",
-        "buildRoot": "E:\\SDCProgram\\Projects\\Term2\\ExtendedKalmanFilters\\build}",
+        "buildRoot": "E:\\SDCProgram\\Projects\\Term2\\ExtendedKF\\VSBuild",
         "cmakeCommandArgs": "",
         "buildCommandArgs": "-m -v:minimal"
       },
@@ -29,7 +29,7 @@
         "name": "x64-Release",
         "generator": "Visual Studio 15 2017 Win64",
         "configurationType": "Release",
-        "buildRoot": "E:\\SDCProgram\\Projects\\Term2\\ExtendedKalmanFilters\\build",
+        "buildRoot": "E:\\SDCProgram\\Projects\\Term2\\ExtendedKF\\VSBuild",
         "cmakeCommandArgs": "",
         "buildCommandArgs": "-m -v:minimal"
       }
